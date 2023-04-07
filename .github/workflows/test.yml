@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - uses: actions/checkout@v3
+
       - uses: averissimo/cuddly-octo-system@main
         with:
-          path-to-shiny-app: 'inst/examples/app/test1'
-      
+          path-to-shiny-apps: "inst/examples/app/test1"
